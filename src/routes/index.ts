@@ -1,5 +1,5 @@
-import { Routes } from '@/interfaces/routes.interface';
 import { Application } from 'express';
+import { Routes } from '../interfaces/routes.interface';
 import { UserRoute } from './user.route';
 
 class RoutesMain {

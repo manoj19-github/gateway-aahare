@@ -1,8 +1,8 @@
-import otpMasterModel, { OTPMasterEnum } from '@/schema/otpMaster.schema';
-import UserModel from '@/schema/user.schema';
-import { UtilsMain } from '@/utils';
 import { NextFunction, Request, Response } from 'express';
 import { SendMailOptions } from 'nodemailer';
+import otpMasterModel, { OTPMasterEnum } from '../../schema/otpMaster.schema';
+import UserModel from '../../schema/user.schema';
+import { UtilsMain } from '../../utils';
 import { HttpException } from '../exceptions/http.exceptions';
 
 export class UserController {
