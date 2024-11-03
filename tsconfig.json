@@ -13,6 +13,7 @@
 		"forceConsistentCasingInFileNames": true,
 		"sourceMap": true,
 		"incremental": true,
+		"experimentalDecorators": true,
 		"baseUrl": "./src",
 		"paths": {
 			"@/*": ["*"],

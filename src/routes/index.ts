@@ -1,8 +1,9 @@
 import { Routes } from '@/interfaces/routes.interface';
 import { Application } from 'express';
+import { UserRoute } from './user.route';
 
 class RoutesMain {
-	private routes: Routes[] = []; // add all routes  here
+	private routes: Routes[] = [new UserRoute()]; // add all routes  here
 	constructor() {}
 	public initializeAllRoutes(app: Application) {
 		this.routes.forEach((route) => {
